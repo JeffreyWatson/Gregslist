@@ -7,7 +7,7 @@ namespace Gregslist.Models
 {
   public class Car
   {
-    public Car(string make, string model, int year, string description)
+    public Car(string make, string model, int? year, string description)
     {
       Id = Guid.NewGuid().ToString();
       Make = make;

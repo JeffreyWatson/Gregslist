@@ -42,6 +42,7 @@ namespace Gregslist
 
       // services.AddScoped<AccountsRepository>();
       // services.AddScoped<AccountService>();
+      services.AddTransient<CarsService>();
     }
 
     private void ConfigureCors(IServiceCollection services)
